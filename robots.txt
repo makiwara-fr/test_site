@@ -1,0 +1,4 @@
+Sitemap: https://voxdatorum.com/sitemapindex.xml
+
+User-Agent: *
+Host: voxdatorum.com
