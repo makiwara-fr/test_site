@@ -149,16 +149,17 @@ body {
 }
 
 .box {
-	height: 10em;
+	min-height: 10em;
 	width: var(--box-width);
-	min-width: var(--content-width)*0.9;
+	min-width: 300px;
+	/*min-width: var(--content-width)*0.9;*/
 	margin: 1em 2%;
 	padding: 1%;
 	background-color: var(--second-bg-color);
 	flex-shrink: none;
 	
-	/*display: flex;
-	flex-wrap: wrap;*/
+	/*display: flex;*/
+	/*flex-wrap: wrap;*/
 }
 
 .box:hover {
